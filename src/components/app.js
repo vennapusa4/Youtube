@@ -12,6 +12,7 @@ export default class App extends Component {
     let aa = test.replace("<", "").replace('>', "");
     let a = 1;
     console.log(aa);
+    var c="<html>"
     super(props);
     this.state = {
       videos: [],
